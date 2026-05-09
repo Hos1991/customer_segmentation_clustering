@@ -27,6 +27,12 @@ This project segments mall customers into different groups using KMeans clusteri
 ## 📈 Results
 The Elbow Method suggested using **5 clusters**.
 
+### Cluster Summary
+- Cluster 1: High income / High spending → VIP customers
+- Cluster 3: High income / Low spending → Potential customers for targeted campaigns
+- Cluster 2: Low income / High spending → Young active spenders
+- Cluster 4: Low income / Low spending → Low-value customers
+  
 ## 💡 Key Insights
 - Younger customers showed higher spending behavior.
 - High income does not always mean high spending.
@@ -50,7 +56,7 @@ This segmentation can help businesses:
 
 ## 🏗️ Project Structure
 ```text
-customer-segmentation-clustering/
+customer-segmentation-clustering
 │
 ├── notebook/
 ├── data/
